@@ -1,3 +1,6 @@
 [submodule "packages/analysis"]
 	path = packages/analysis
 	url = https://github.com/charter-projects/charter-analysis.git
+[submodule "localization"]
+	path = localization
+	url = https://github.com/charter-projects/charter-localization.git
