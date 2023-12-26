@@ -1,0 +1,3 @@
+[submodule "packages/analysis"]
+	path = packages/analysis
+	url = https://github.com/charter-projects/charter-analysis.git
