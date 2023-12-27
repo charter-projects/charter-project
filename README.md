@@ -23,13 +23,13 @@ When contributing to any of the Charter Project Repos we recommend that you clon
 
 Charter Project Applications are released under the BSD 3-Clause license, which is simplified below:
 
-Can | Cannot | Must
---- | --- | ---
-Commercially use | Use trademark | Include Copyright
-Modify | Hold us liable | Include this License
-Distribute | |
-Sublicense | |
-Place Warranty | |
+| Can              | Cannot         | Must                 |
+|------------------|----------------|----------------------|
+| Commercially use | Use trademark  | Include Copyright    |
+| Modify           | Hold us liable | Include this License |
+| Distribute       |                |                      |
+| Sublicense       |                |                      |
+| Place Warranty   |                |                      |
 
 For more convoluted language, see the [LICENSE](https://github.com/charter-projects/charter-project/blob/main/LICENSE).
 
