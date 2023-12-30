@@ -13,9 +13,18 @@ The Charter Project is a VTT that allows you to connect with friends and build a
 </p>
 &nbsp;
 
+[![melos](https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square)](https://github.com/invertase/melos)
+
 ### 👐 Contributing
 
 When contributing to any of the Charter Project Repos we recommend that you clone the [main repo](https://github.com/charter-projects/charter-project) if you want to test out features as melos will override the local packages and your changes will be applied locally.
+
+#### Project set up
+
+1. Install [flutter](https://docs.flutter.dev/get-started/install)
+2. Install melos with `dart pub global activate melos`
+3. Run `melos bs`
+    - It will install all the dependencies and set up husky in the sub repos.
 
 &nbsp;
 

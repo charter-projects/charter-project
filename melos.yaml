@@ -31,10 +31,15 @@ command:
       build_runner: ^2.4.6
       commitlint_cli: ^0.7.1
       copy_with_extension_gen: ^5.0.4
+      husky: ^0.1.6
       json_serializable: ^6.7.1
 
     hooks:
-      pre: melos clean
+      pre: >-
+        melos clean
+        && dart pub get
+        && dart run husky install
+        && melos husky:install --no-select
 
   version:
     branch: version
@@ -113,6 +118,12 @@ scripts:
       dependsOn: "slang"
       fileExists:
         - slang.yaml
+
+  husky:install:
+    exec: dart run husky install
+    description: Installs husky into the project
+    packageFilters:
+      dependsOn: "husky"
 
   # CI Jobs
   ci:quality:
